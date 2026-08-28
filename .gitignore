@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+.pytest_cache/
+
+# Environment variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large ML/data files
+*.pkl
+*.joblib
+
+# Local datasets
+data/raw/
+data/processed/*.csv
+
+# SHAP generated files
+data/processed/shap_*.csv
+
+# Temporary files
+tmp/
+temp/
